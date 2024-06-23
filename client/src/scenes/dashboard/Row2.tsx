@@ -14,7 +14,7 @@ const pieData = [
 
 const Row2 = () => {
     const { palette } = useTheme();
-    const pieColors = [palette.primary[800], palette.primary[300]];
+    const pieColors = ["#44444", "#44444"];
     const { data: operationalData } = useGetKpisQuery();
     const { data: productData } = useGetProductsQuery();
     const operationalExpenses = useMemo(() => {
@@ -54,7 +54,7 @@ const Row2 = () => {
                             <YAxis yAxisId="left" tickLine={false}  orientation='left' style={{ fontSize: "10px" }} axisLine={false} />
                             <YAxis yAxisId="right" tickLine={false} orientation='right' style={{ fontSize: "10px" }} axisLine={false} />
                             <Tooltip />
-                            <Line yAxisId="left" type="monotone" dataKey="Non Operational Expenses" stroke={palette.tertiary[500]} />
+                            <Line yAxisId="left" type="monotone" dataKey="Non Operational Expenses" stroke={"#44444"} />
                             <Line yAxisId="right" type="monotone" dataKey="Operational Expenses" stroke={palette.primary.main} />
                     </LineChart>
                 </ResponsiveContainer>
@@ -76,7 +76,7 @@ const Row2 = () => {
                     </PieChart>
                     <Box ml="-0.7rem" flexBasis="40%" textAlign="center">
                         <Typography variant='h5'>Target Sales</Typography>
-                        <Typography m="0.3rem 0" variant='h3' color={palette.primary[300]}>83</Typography>
+                        <Typography m="0.3rem 0" variant='h3' color={"#44444"}>83</Typography>
                         <Typography variant='h6'>Finance goals of the Campaign that is desired</Typography>
                     </Box>
                     <Box flexBasis="40%">
@@ -103,7 +103,7 @@ const Row2 = () => {
                         <YAxis type='number' dataKey="expense" name="expense" unit="cm" axisLine={false} tickLine={false} style={{ fontSize: "10px" }} tickFormatter={(v) => `$${v}`} />
                         <ZAxis type="number" range={[20]} />
                         <Tooltip formatter={(v) => `$${v}`} />
-                        <Scatter name="Product Expense Ratio" data={productExpenseData} fill={palette.tertiary[500]} />
+                        <Scatter name="Product Expense Ratio" data={productExpenseData} fill={"#44444"} />
                     </ScatterChart>
                 </ResponsiveContainer>
             </DashboardBox>

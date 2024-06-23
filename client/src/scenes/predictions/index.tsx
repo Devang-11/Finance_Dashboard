@@ -93,7 +93,7 @@ const Predictions = () => {
                         type="monotone"
                         dot={false}
                         dataKey="Regression Line"                 
-                        stroke={palette.tertiary.main} />
+                        stroke={"#44444"} />
                         {
                             isPredictions &&
                         (
@@ -101,7 +101,7 @@ const Predictions = () => {
                             strokeDasharray="5 5"
                             dot={false}
                             dataKey="Predictived Revenue"                 
-                            stroke={palette.secondary[500]} />
+                            stroke={"#44444"} />
                         )
                         }
                     </LineChart>

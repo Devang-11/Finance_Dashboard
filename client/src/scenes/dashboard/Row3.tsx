@@ -9,7 +9,7 @@ import { PieChart, Pie, Cell } from 'recharts';
 
 const Row3 = () => {
     const { palette } = useTheme();
-    const pieColors = [palette.primary[800], palette.primary[500]]
+    const pieColors = ["#44444", "#44444"]
     const { data: kpisData } = useGetKpisQuery();
     const { data: productsData } = useGetProductsQuery();
     const { data: transactionsData } = useGetTransactionsQuery();
@@ -101,8 +101,8 @@ const Row3 = () => {
             </DashboardBox>
             <DashboardBox gridArea="j">
                 <BoxHeader title='Overall Summary Explanation Data' sideText='+15%' />
-                <Box height="15px" margin="1.25rem 1rem 0.4rem 1rem" bgcolor={palette.primary[800]} borderRadius="1rem">
-                    <Box height="15px" bgcolor={palette.primary[500]} borderRadius="1rem" width="40%" />
+                <Box height="15px" margin="1.25rem 1rem 0.4rem 1rem" bgcolor={"#44444"} borderRadius="1rem">
+                    <Box height="15px" bgcolor={"#44444"} borderRadius="1rem" width="40%" />
                 </Box>
                 <Typography margin="0 1rem" variant='h6'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cupiditate similique quidem qui magnam a dolorem cum ex quae esse blanditiis consequatur voluptates, doloremque quasi unde, itaque vitae iste, illum earum porro. Consequatur iure rem ratione reiciendis. Nesciunt, recusandae quisquam ducimus ipsa error, ipsum deleniti veniam ad earum, iure officia.

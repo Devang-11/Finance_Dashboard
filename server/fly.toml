@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for server-proud-breeze-7629 on 2024-06-23T01:47:03+05:30
+# fly.toml app configuration file generated for server-crimson-glitter-5290 on 2024-06-23T10:38:39+05:30
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'server-proud-breeze-7629'
-primary_region = 'sin'
+app = 'server-crimson-glitter-5290'
+primary_region = 'hkg'
 
 [build]
 
