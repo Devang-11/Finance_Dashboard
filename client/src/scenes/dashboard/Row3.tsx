@@ -105,7 +105,6 @@ const Row3 = () => {
                     <Box height="15px" bgcolor={palette.primary[500]} borderRadius="1rem" width="40%" />
                 </Box>
                 <Typography margin="0 1rem" variant='h6'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cupiditate similique quidem qui magnam a dolorem cum ex quae esse blanditiis consequatur voluptates, doloremque quasi unde, itaque vitae iste, illum earum porro. Consequatur iure rem ratione reiciendis. Nesciunt, recusandae quisquam ducimus ipsa error, ipsum deleniti veniam ad earum, iure officia.
                 </Typography>
             </DashboardBox>
         </>
